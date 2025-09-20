@@ -15,10 +15,10 @@
 # Characteristics of Dictionary:
 # key-value pairs: 
 # Every entry of Dictionary's element is a pair: keys and values. 
-# { "name":"nandhan"}
+# { "name":"Vikram"}
 # Unique Keys: 
 # example: 
-# A = {"n":"Nandhan","n":"Anurag"}
+# A = {"n":"Vikram","n":"Anurag"}
 # print(A) # {"n":"Anurag"}
 # Keys must be immutable: 
 # keys can be(valid keys): integer,float,string
@@ -32,14 +32,14 @@
 # Creating Dictionary:
 # Normal Dictionary:
 # BioData = {
-#     "Name":"Nandhan",
+#     "Name":"Vikram",
 #     "RollNo":66,
 #     "Branch":"CSC",
-#     "Place":"Kamareddy"
+#     "Place":"Vikram"
 # }
 # print(BioData)
 # Dictionary using Constructor: 
-# BioData1 = dict( Name="Nandhan",Roll_No=66,Branch="CSC")
+# BioData1 = dict( Name="Vikram",Roll_No=66,Branch="CSC")
 # print(BioData1)
 # Empty Dictionary:
 # E_D = {}
@@ -48,34 +48,34 @@
 # -> To access an element we use key names inside the square brackets [] or we can use get() method.
 
 # BioData = {
-#     "Name":"Nandhan",
+#     "Name":"Vikram",
 #     "RollNo":66,
 #     "Branch":"CSC",
-#     "Place":"Kamareddy"
+#     "Place":"Nalgonda"
 # } 
 # square brackets []
-# print(BioData["Name"]) # Nandhan
+# print(BioData["Name"]) # Vikram
 # print(BioData["RollNo"]) # 66
 # print(BioData["Branch"]) # CSC
-# print(BioData["Place"]) # Kamareddy
+# print(BioData["Place"]) # Nalgonda
 # # using get() method:
-# print(BioData.get("Name")) # Nandhan
+# print(BioData.get("Name")) # Vikram
 # print(BioData.get("RollNo")) # 66
 # print(BioData.get("Branch")) # CSC
-# print(BioData.get("Place")) # Kamareddy
+# print(BioData.get("Place")) # Nalgonda
 
 # Adding and Updating Dictionary:
 # Adding: You can insert a new key-value pari into a dictionary.
 # Updating: You can update or change the values using exsisted keys in the dictionary. 
 # BioData = {
-#     "Name":"Nandhan",
+#     "Name":"Vikram",
 #     "RollNo":66,
 #     "Branch":"CSC",
 #     "Place":"Hyderabad"
 # } 
 # update:
 # BioData["RollNo"] = 16
-# BioData["Name"] = "Nikhil"
+# BioData["Name"] = "Vicky"
 # print(BioData)
 # # add: 
 # BioData["Role"] = "Software developer"
@@ -86,9 +86,9 @@
 # pop(),popitem(),clear(), del(delete)
 
 # BioData = {
-#     "Name":"Nandhan",
+#     "Name":"Vikram",
 #     "RollNo":66,
-#     "Blood grp":"B+",
+#     "Blood grp":"B-",
 #     "Branch":"CSC",
 #     "Place":"Hyderabad",
 #     "Role":"SDE"
@@ -119,9 +119,9 @@
 # Methods allow you to access dictionary data easily. 
 # keys(),values(), items()
 # BioData = {
-#     "Name":"Nandhan",
+#     "Name":"Vikram",
 #     "RollNo":66,
-#     "Blood grp":"B+",
+#     "Blood grp":"B-",
 #     "Branch":"CSC",
 #     "Place":"Hyderabad",
 #     "Role":"SDE"
@@ -129,12 +129,12 @@
 # # keys(): It prints only the keys of dictionary
 # print(BioData.keys()) #  n,r,blg,brn,plc,rol
 # # values(): It prints only the values of dictionary
-# print(BioData.values()) # nan,b+,csc,hy,sde
+# print(BioData.values()) # vik,b-,csc,hy,sde
 # # items(): It prints both the keys and values of dictionary
 # print(BioData.items())
 # # update: Manually we are assigning the values with seperate lines 
 # BioData["RollNo"] = 16
-# BioData["Name"] = "Nikhil"
+# BioData["Name"] = "Vicky"
 # print(BioData)
 # # updating update(): update the mutliple values (this is in built method to update mutliple keys )
 # BioData.update({"Role":"Web Developer","Place":"Kamareddy"})
@@ -143,11 +143,11 @@
 # Loops for Dictionary:
 # We can loop over keys,values,items(both).
 # GR = {
-#     "Name":"Kaveri",
+#     "Name":"Vikram",
 #     "RollNo":17,
-#     "Blood grp":"O-",
+#     "Blood grp":"B-",
 #     "Branch":"CSC",
-#     "Place":"Kothagudem",
+#     "Place":"Nalgonda",
 #     "Role":"SDE"
 # }
 # Loop through keys 
@@ -165,6 +165,6 @@
 #  Nested  Dictionary:
 
 students = {
-    "CR":{"Name":"Nikhil","RollNo":16},
-    "GR":{"Name":"Kaveri","RollNo":17} }
+    "CR":{"Name":"Vicky","RollNo":16},
+    "GR":{"Name":"Vikram","RollNo":17} }
 print(students["CR"]["Name"])
